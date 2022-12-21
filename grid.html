@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+   body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+   }
+
+   .header {
+    background-color: #283cbb;
+    padding: 20px 80px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+   }
+
+   ul {
+  display: flex;
+    
+   }
+
+li {
+  list-style-type: none;
+  margin-left: 50px;
+}
+a {
+  text-decoration: none;
+  color: white;
+  transition: all 0.3s ease-out;
+}
+
+a:hover {
+  color: #c5cae9;
+  transform: rotate(6deg);
+}
+
+.header h2:hover {
+  color: #c5cae9;
+  cursor: pointer;
+  transform: rotate(6deg);
+}
+
+.header h2 {
+  transition: all 0.3s ease-out;
+}
+
+.main {
+  background-color: #c5cae9;
+  padding: 50px 40px;
+ display: flex;
+ justify-content: center;
+}
+
+.inner {
+  max-width: 650px;
+}
+
+.inner button {
+  background-color: #283cbb;
+  display: inline-block;
+  margin-top: 10px;
+  color: white;
+  padding: 15px 35px;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+
+.inner button:hover {
+  color: #c5cae9;
+  transform:translate(-30px, -30px);
+}
+
+.box-container {
+ background-color:#d7d9f0;
+}
+
+.inner-box {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 30px;
+  row-gap: 10px;
+  
+}
+
+.inner-box div {
+  margin-top: 20px;
+  border-radius: 10px;
+  padding: 5px 15px;
+  transition: all 0.5s ease-out;
+}
+
+.inner-box div:hover {
+  background-color: #c5cae9;
+  color: #283cbb;
+  cursor: pointer;
+  transform:translate(-30px, -30px);
+}
+
+.inner-box h3 {
+  color: #283cbb;
+}
+
+.inner-box p {
+  text-align: justify;
+  line-height: 1.7;
+}
+
+.footer {
+  text-align: center;
+  opacity: 0.7;
+}
+  </style>
+</head>
+<body>
+ <div class="header">
+  <h2>OurLogo</h2>
+  <ul>
+    <a href="#"><li>Home</li></a>
+   <a href="#"> <li>About</li></a>
+    <a href="#"><li>Portfolio</li></a>
+  </ul>
+ </div>
+
+ <div class="main">
+  <div class="inner">
+    <h1>Welcome To Our Site</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore temporibus veritatis quas ab deleniti, vel asperiores fugiat expedita mollitia, accusantium harum quod corrupti voluptas nulla architecto ratione pariatur velit exercitationem?</p>
+    <button>Learn More</button>
+  </div>
+ </div>
+
+ <div class="box-container">
+  <div class="inner-box">
+    <div>
+      <h3>Cool Feature #1</h3>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque quidem est explicabo natus, repellat amet quam, reiciendis voluptatem perspiciatis consequatur nihil dolorem dicta aliquam non? Incidunt at aperiam beatae quos.</p>
+    </div>
+    <div>
+      <h3>Cool Feature #2</h3>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque quidem est explicabo natus, repellat amet quam, reiciendis voluptatem perspiciatis consequatur nihil dolorem dicta aliquam non? Incidunt at aperiam beatae quos.</p>
+    </div>
+    <div>
+      <h3>Cool Feature #3</h3>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque quidem est explicabo natus, repellat amet quam, reiciendis voluptatem perspiciatis consequatur nihil dolorem dicta aliquam non? Incidunt at aperiam beatae quos.</p>
+    </div>
+    <div>
+      <h3>Cool Feature #4</h3>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque quidem est explicabo natus, repellat amet quam, reiciendis voluptatem perspiciatis consequatur nihil dolorem dicta aliquam non? Incidunt at aperiam beatae quos.</p>
+    </div>
+    <div>
+      <h3>Cool Feature #5</h3>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque quidem est explicabo natus, repellat amet quam, reiciendis voluptatem perspiciatis consequatur nihil dolorem dicta aliquam non? Incidunt at aperiam beatae quos.</p>
+    </div>
+    <div>
+      <h3>Cool Feature #6</h3>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque quidem est explicabo natus, repellat amet quam, reiciendis voluptatem perspiciatis consequatur nihil dolorem dicta aliquam non? Incidunt at aperiam beatae quos.</p>
+    </div>
+  </div>
+ </div>
+ <p class="footer">&#169;2020 Fictional Company</p>
+</body>
+</html>
